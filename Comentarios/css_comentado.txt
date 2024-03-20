@@ -1,0 +1,2 @@
+1. <i> é usado tanto para texto itálico quanto ícones (?)
+https://stackoverflow.com/questions/11135261/what-are-the-advantages-disadvantages-of-using-the-i-tag-for-icons-instead-of
