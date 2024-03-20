@@ -1,0 +1,7 @@
+1. nao confundir tags
+head: sempre utilizada como filha direta da tag html e serve para passar informações
+ ao navegador que não serão apresentadas na tela para o usuário. É dentro dessa tag,
+ por exemplo, que pedimos para o navegador carregar um arquivo CSS dentre outras coisas
+
+ header: surgiu no HTML5 e é utilizada dentro da tag body para representar
+  o cabeçalho da página
