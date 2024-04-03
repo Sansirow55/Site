@@ -1,0 +1,24 @@
+COMENTÁRIOS POR LINHAS
+1: body nao usa ".", nao é classe
+
+4,5: tirar espaço/margem padrao do browser
+
+6,7:dar 100% height pro body e html pra nao ficar menor q o conteudo
+
+8:usar flex para poder mudar o tamanho do bloco junto com a pagina
+
+23:muda conforme a pagina preenchendo espaço disponivel
+
+43:GAMBIARRA NAO DEVERIA FICAR ASSIM
+
+59:para deixar os blocos esquerda e direita lado a lado
+
+66:para deixar os itens um abaixo do outro, nao funciona(?)
+
+67:por algum motivo especificar tamanho deixa de alinhar um em cima do outro(??)
+
+.bloco_esquerda button > span {
+    display: inline-flex; 
+    height:25px;
+}
+tambem nao funciona pra alinhar verticalmente

@@ -1,0 +1,51 @@
+LEMBRETES
+1.Building One-dimensional Layouts: For web-pages or sections with a single layout, it is best to use flex
+ as it helps in proper arrangement of the content.
+
+
+
+
+2. <i> é usado tanto para texto itálico quanto ícones (?)
+https://stackoverflow.com/questions/11135261/what-are-the-advantages-disadvantages-of-using-the-i-tag-for-icons-instead-of
+
+
+
+3.ao inspecionar a página aparece traços roxos, indica que o espaço que o elemento
+ainda pode expandir
+
+
+5.the min-width and max-width properties override the width property.
+
+
+6. qual unidade de tamanho usar?
+https://www.w3schools.com/cssref/css_units.php
+
+% é em relação a div pai, por isso o bloco_fundo com 100% de altura nao ocupa 100% da tela
+apesar disso, 100% no width funciona(???)
+https://stackoverflow.com/questions/17555682/height-100-or-min-height-100-for-html-and-body-elements
+
+definir 100% de height pra body e html OU 100vh, (viewport height), relativo a tela do dispositivo
+
+no site oficial do gmail, as seções de paginas usam tamanho relativo, e botões usam px
+
+usuarios diferentes no stackoverflow mostram que uma opçao pra um é exatamente
+o que precisava para funcionar ou exatamento o contrario para fazer funcionar
+
+
+7. seletores css
+ # = ID
+. = classe
+
+
+
+x.  div.test th, /* any <th> underneath a <div class="test"> */
+  td,          /* or any <td> anywhere at all */
+  caption      /* or any <caption> */
+
+Whereas the second says
+
+  div.test th,     /* any <th> underneath a <div class="test"> */
+  div.test td,     /* or any <td> underneath a <div class="test"> */
+  div.test caption /* or any <caption> underneath a <div class="test">  */
+
+https://stackoverflow.com/questions/632100/apply-css-style-to-child-elements

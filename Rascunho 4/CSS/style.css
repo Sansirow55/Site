@@ -1,0 +1,129 @@
+body{ 
+    background-color: #f6f8fc;
+    font-family: sans-serif;
+    margin:0;
+    padding: 0;
+    height: 100%;
+}
+
+html{
+    height:100%;
+}
+
+.bloco_superior{
+    height:55px;
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.esquerda_bloco_superior{
+width:160px;
+display:flex;
+align-items: center;
+margin-left:15px;
+}
+
+.centro_bloco_superior{
+background-color: #f0f4fc;
+display:flex;
+flex:1; 
+align-items: center;
+margin-left:100px;
+margin-right:300px;
+max-width: 700px;
+
+}
+
+.direita_bloco_superior{
+
+width:175px;
+}
+
+.botao_menu_nao_selecionado{
+    height: 25px;
+    margin-right: 20px;
+}
+
+.lupa{
+height: 20px;
+ 
+}
+
+.botao_filtro_pesquisa{
+
+ margin-left:auto;
+}
+
+.pesquisa_email{
+    border:transparent;
+    background-color: #f0f4fc;
+    
+}
+
+.bloco_fundo{
+    /*background-color: rgb(199, 1, 1);*/
+    display:flex; 
+    flex-direction: row;
+    width:100%;
+    height:90%;
+}
+
+.bloco_esquerda{
+   /* background-color: bisque;*/
+    /*flex-direction: column; */
+    width: 18%; 
+    height:100%;
+}
+
+.bloco_esquerda > nav{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.bloco_central{
+    background-color: rgb(255, 255, 255);
+
+    width:78%;
+}
+
+.opcoes_bloco_central{
+    /*background-color: aqua;*/
+    height:15%;
+}
+
+.bloco_direita{
+    /*background-color: aqua;*/
+    width:4%;
+}
+
+.lista_emails{
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    display: block;
+}
+
+
+
+.email span{
+
+    
+}
+
+
+.button span{
+
+}
+
+#email1{
+
+}
+
+
+
+
